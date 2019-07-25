@@ -80,7 +80,7 @@ class ListViewController: UIViewController {
         ]
         
         urlParams["page"] = page
-        urlParams["perpage"] = "5"
+        urlParams["perpage"] = "20"
 
         
         let sign = SignTools.createSign(urlParams)
