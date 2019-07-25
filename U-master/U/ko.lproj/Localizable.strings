@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  U
+
+  Created by Brooks on 16/5/28.
+  Copyright © 2016年 王建雨. All rights reserved.
+*/
+CFBundleDisplayName ="U.";
+"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
+"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"MessageKey"        = "메시지";
+"EncourageKey"      = "북돋우다";
+"ShareKey"          = "몫";
+"ExplanationKey"    = "설명";
+"CurrentVersionKey" = "현재 버전 ";
+"FeedbackKey"       = "피드백";
+"YourWordsKey"      = "단어...";
+"WhoAreYouKey"      = "당신을 누구";
+"SayToTheWorldKey"  = "세계 소리";
+"NoteTextKey"       = "당신이 열망이 있다면 듣고 소리합니다 :\n\n미국은 매일 잠시 시간을내어 단어를 읽고, 단어를 쓰기 바랍니다; 다음 둡니다.\n\n미국은 모든 UER 듣고 수 있도록 강한 목소리, 매일 소리 선택합니다.\n\n(오른쪽 열기 : 응용 프로그램을 시작 푸시 메시지를 클릭)";
+"JvBaoKey"          = "이 사용자와 콘텐츠를 신고";
+"JvBao_Yes_Key"     = "예";
+"JvBao_NO_Key"      = "아니";
+"JvBao_Success_Key" = "성공 보고서";
+
+"ShouDaoKey"        = "U.당신의 외침을받은";
+"ShouDao_Done_Key"  = "끝난";
+"ShouDao_Again_Key" = "다시";
+"Push_Ok_Key"       = "그래";
+
+"NotificationKey"   = "뉴스";
+
+"VoiceKey"          = "외침";
+"UpdateKey"         = "최신 정보";
+
+
+"NewVersionKey"     = "새로운 버전";
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  U
+
+  Created by Brooks on 16/5/28.
+  Copyright © 2016年 王建雨. All rights reserved.
+*/
+CFBundleDisplayName ="U.";
+"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
+"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"MessageKey"        = "消息";
+"EncourageKey"      = "鼓励";
+"ShareKey"          = "予人";
+"ExplanationKey"    = "攻略";
+"CurrentVersionKey" = "当前版本 ";
+"FeedbackKey"       = "反馈";
+"YourWordsKey"      = "你的呐喊...";
+"WhoAreYouKey"      = "你是谁";
+"SayToTheWorldKey"  = "让世界听见你的呐喊";
+"NoteTextKey"       = "如果您也渴望倾听和诉说：\n\n每天花一分钟，读一句话，写一句话。\n\nU.每天会选出心声最强的呐喊，让所有Uer听到。\n\n(正确的打开方式: 点push消息启动app)";
+"JvBaoKey"          = "举报该内容和用户";
+"JvBao_Yes_Key"     = "举报";
+"JvBao_NO_Key"      = "点错了";
+"JvBao_Success_Key" = "举报成功";
+
+"ShouDaoKey"        = "U.已经收到你的呐喊";
+"ShouDao_Done_Key"  = "好";
+"ShouDao_Again_Key" = "再来一次";
+"Push_Ok_Key"       = "好";
+
+"NotificationKey"   = "提示";
+
+"VoiceKey"          = "呐喊";
+
+"UpdateKey"         = "更新";
+
+"NewVersionKey"     = "新版本";
+
+
+
+
+
+
+

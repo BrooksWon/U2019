@@ -1,0 +1,19 @@
+{
+    "aps": {
+        "alert": {
+            "body": "Nice to meet you.",
+            "title": "Hello,Uer!"
+        },
+        "category": "myCategory",
+        "thread-id":"5280"
+    },
+    
+    "WatchKit Simulator Actions": [
+        {
+            "title": "Click",
+            "identifier": "firstButtonAction"
+        }
+    ],
+    
+    "PUSH_MSG_KEY": "-Good night,Daisy.\n-Good night,Benjamin."
+}

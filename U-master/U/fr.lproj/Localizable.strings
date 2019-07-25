@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  U
+
+  Created by Brooks on 16/5/28.
+  Copyright © 2016年 王建雨. All rights reserved.
+*/
+CFBundleDisplayName ="U.";
+"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
+"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"MessageKey"        = "Message";
+"EncourageKey"      = "Encourager";
+"ShareKey"          = "Partager";
+"ExplanationKey"    = "Explication";
+"CurrentVersionKey" = "Version actuelle";
+"FeedbackKey"       = "Retour d'information";
+"YourWordsKey"      = "vos mots...";
+"WhoAreYouKey"      = "qui es-tu";
+"SayToTheWorldKey"  = "Criez au monde";
+"NoteTextKey"       = "Si vous êtes désireux d'écouter et de crier : \n\nU. espère que vous prenez une minute chaque jour , lire un mot , écrire un mot ; puis le laisser . \n\nU. sélectionnera les voix les plus fortes crient tous les jours , de sorte que tous les Uer entendre . \n\n( Droit ouvert : Cliquez sur les messages push pour démarrer l'application )
+";
+"JvBaoKey"          = "rapport";
+"JvBao_Yes_Key"     = "Oui";
+"JvBao_NO_Key"      = "Non";
+"JvBao_Success_Key" = "Rapport Succeed";
+
+"ShouDaoKey"        = "Reçu";
+"ShouDao_Done_Key"  = "Terminé";
+"ShouDao_Again_Key" = "Encore";
+"Push_Ok_Key"       = "D'accord";
+"NotificationKey"   = "Notification";
+
+"VoiceKey"          = "Crier";
+
+"UpdateKey"         = "Mettre à jour";
+
+"NewVersionKey"     = "Nouvelle version";
+
+

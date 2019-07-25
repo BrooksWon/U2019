@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Bugly (2.5.0)
+  - GlitchLabel (2.0.0)
+  - HandyJSON (5.0.0)
+  - iRate (1.12.1)
+  - LLSwitch (1.0.4)
+  - LTMorphingLabel (0.5.5)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.2.0)
+  - PathMenu (2.0.1)
+  - SCLAlertView (0.7.0)
+  - SwiftyJSON (4.0.0)
+  - UMengAnalytics (4.2.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Bugly (~> 2.5.0)
+  - GlitchLabel (from `https://github.com/BrooksWon/GlitchLabel.git`)
+  - HandyJSON (~> 5.0.0)
+  - iRate (~> 1.12.1)
+  - LLSwitch (= 1.0.4)
+  - LTMorphingLabel
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh
+  - PathMenu (from `https://github.com/BrooksWon/PathMenu.git`)
+  - SCLAlertView (from `https://github.com/vikmeup/SCLAlertView-Swift.git`)
+  - SwiftyJSON (~> 4.0.0)
+  - UMengAnalytics (= 4.2.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bugly
+    - HandyJSON
+    - iRate
+    - LLSwitch
+    - LTMorphingLabel
+    - MBProgressHUD
+    - MJRefresh
+    - SwiftyJSON
+    - UMengAnalytics
+
+EXTERNAL SOURCES:
+  GlitchLabel:
+    :git: https://github.com/BrooksWon/GlitchLabel.git
+  PathMenu:
+    :git: https://github.com/BrooksWon/PathMenu.git
+  SCLAlertView:
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+CHECKOUT OPTIONS:
+  GlitchLabel:
+    :commit: 7dc515c737ac62fffc67bccf968ac775c3b7259b
+    :git: https://github.com/BrooksWon/GlitchLabel.git
+  PathMenu:
+    :commit: a4a8bbf9e80def384c2f8fcafca82c927e5d5bbc
+    :git: https://github.com/BrooksWon/PathMenu.git
+  SCLAlertView:
+    :commit: 85329ce66c297bea79ddef92908ff2040174ccf9
+    :git: https://github.com/vikmeup/SCLAlertView-Swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  GlitchLabel: 65773d1df358ef66c8daa40428eb79bd04e7a976
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  iRate: 59c63a290d4988f365d4338e58eca192ae92b552
+  LLSwitch: b5f0e574b4c53f46806df015cd21285464d4b440
+  LTMorphingLabel: 86464e41c3394dbf1ad098442ed4dcf8891ba975
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PathMenu: 2e9c0f3daac9336e1a7db581a39708a41cbd4a40
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+
+PODFILE CHECKSUM: 768f15c72b9627ed96447b18d9d49b726ae093dd
+
+COCOAPODS: 1.5.3

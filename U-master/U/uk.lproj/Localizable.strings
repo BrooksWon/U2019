@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  U
+
+  Created by Brooks on 16/5/28.
+  Copyright © 2016年 王建雨. All rights reserved.
+*/
+CFBundleDisplayName ="U.";
+"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
+"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"MessageKey"        = "повідомлення";
+"EncourageKey"      = "Заохочувати";
+"ShareKey"          = "Поділитися";
+"ExplanationKey"    = "Пояснення";
+"CurrentVersionKey" = "Поточна версія ";
+"FeedbackKey"       = "Зворотній зв'язок";
+"YourWordsKey"      = "Ваші слова";
+"WhoAreYouKey"      = "хто ти";
+"SayToTheWorldKey"  = "Крик усьому світу";
+"NoteTextKey"       = "Якщо ви хочете послухати та кричати: \n\nУ. сподіваюся, що ти займаєш хвилину кожен день, читаєш слово, пишеш слово; потім залиште його. \n\nU. виберуть найсильніші голоси щодня, щоб усі Uer почули. \n\n (Право відкритим: натисніть повідомлення, щоб запустити програму).";
+"JvBaoKey"          = "Звіт";
+"JvBao_Yes_Key"     = "Так";
+"JvBao_NO_Key"      = "Немає";
+"JvBao_Success_Key" = "Повідомте про успішність";
+
+"ShouDaoKey"        = "Отримано";
+"ShouDao_Done_Key"  = "Готово";
+"ShouDao_Again_Key" = "Знову";
+"Push_Ok_Key"       = "добре";
+"NotificationKey"   = "Сповіщення";
+
+"VoiceKey"          = "Кричати";
+
+"UpdateKey"         = "Оновити";
+
+"NewVersionKey"     = "Нова версія";
+
+

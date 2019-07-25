@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  U
+
+  Created by Brooks on 16/5/28.
+  Copyright © 2016年 王建雨. All rights reserved.
+*/
+CFBundleDisplayName ="U.";
+"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
+"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"MessageKey"        = "Notícias";
+"EncourageKey"      = "Incentivo";
+"ShareKey"          = "Compartilhe";
+"ExplanationKey"    = "Descrição";
+"CurrentVersionKey" = "Versão ";
+"FeedbackKey"       = "Comentários";
+"YourWordsKey"      = "O que você quer dizer";
+"WhoAreYouKey"      = "Quem é você?";
+"SayToTheWorldKey"  = "Chorar";
+"NoteTextKey"       = "Se você está ansioso para ouvir e gritar: \n\nU. Espero que você tome um minuto todos os dias, leia uma palavra, escreva uma palavra; então deixe-o. \n\nU. irá selecionar as vozes mais fortes gritando todos os dias, de modo que todo Uer ouça. \n\n (Direito Aberto: clique em inserir mensagens para iniciar a aplicação)";
+"JvBaoKey"          = "Relatório";
+"JvBao_Yes_Key"     = "sim";
+"JvBao_NO_Key"      = "Não";
+"JvBao_Success_Key" = "Relatório de sucesso";
+
+"ShouDaoKey"        = "Recebido";
+"ShouDao_Done_Key"  = "Feito";
+"ShouDao_Again_Key" = "Novamente";
+"Push_Ok_Key"       = "Está bem";
+"NotificationKey"   = "Notificação";
+
+"VoiceKey"          = "Gritar";
+
+"UpdateKey"         = "Atualizar";
+
+"NewVersionKey"     = "Nova versão";
+
+
+
