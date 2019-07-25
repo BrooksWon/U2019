@@ -6,8 +6,8 @@
   Copyright © 2016年 王建雨. All rights reserved.
 */
 CFBundleDisplayName ="U.";
-"DefaultVoiceKey"   = "——Good night,Daisy.\n\n——Good night,Benjamin.";
-"ByUerKey"          = "The Curious Case Of Benjamin Button";
+"DefaultVoiceKey"   = "I really don’t know how many more love stories I have left in me, but I want you to be my last. ";
+"ByUerKey"          = "Christopher";
 "MessageKey"        = "messaggio";
 "EncourageKey"      = "incoraggiare";
 "ShareKey"          = "quota";
