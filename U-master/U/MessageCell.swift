@@ -25,6 +25,6 @@ class MessageCell: UITableViewCell {
     
     func fillData(name:String, content:String) {
         contentLabel.text = content
-        nameLabel.text = name
+        nameLabel.text = String.init(format:"by %@", name)
     }    
 }

@@ -127,6 +127,10 @@ extension ListViewController: UITableViewDelegate {
         
         return message.cellHeight(name: message.message_nickname! as NSString, content: message.message_content!  as NSString)
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
 extension ListViewController: UITableViewDataSource {

@@ -98,7 +98,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
          #if DEBUG
             //Bugly.startWithAppId("b75c4596bf")
          #else
-            Bugly.startWithAppId("b75c4596bf")
+        Bugly.start(withAppId: "b75c4596bf")
          #endif
         
         

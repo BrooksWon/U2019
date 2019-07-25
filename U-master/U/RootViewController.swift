@@ -226,7 +226,7 @@ extension RootViewController: PathMenuDelegate {
                         
                         if ((messages[0]?.message_content as! NSString).length > 0){
                             self.voiceLabel.text = messages[0]?.message_content
-                            self.byUerLabel.text = messages[0]?.message_nickname
+                            self.byUerLabel.text = String.init(format:"by %@", messages[0]!.message_nickname!)
                         }
                     }
                 }
