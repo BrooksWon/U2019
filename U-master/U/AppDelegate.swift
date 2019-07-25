@@ -4,7 +4,7 @@
 //
 //  Created by Brooks on 16/5/4.
 //  Copyright © 2016年 王建雨. All rights reserved.
-//
+//  API服务使用 http://open.yesapi.cn/?r=App/Mine , 绑定了QQ和qq邮箱
 
 import UIKit
 import AdSupport
