@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="eHm-WM-7Jn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="eHm-WM-7Jn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -77,10 +75,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6t-fh-MJ2" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
-                                <rect key="frame" x="31" y="343.5" width="313" height="15"/>
+                                <rect key="frame" x="31" y="343.5" width="313" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="cgB-MM-ynf"/>
+                                    <constraint firstAttribute="height" constant="20" id="cgB-MM-ynf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -88,16 +86,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="morphingEnabled" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaT-S3-oFs">
-                                <rect key="frame" x="31" y="358.5" width="313" height="15"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="W7X-WK-nND"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.081446088850498199" green="0.081328548491001129" blue="0.084216199815273285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -109,14 +97,12 @@
                             <constraint firstItem="X6t-fh-MJ2" firstAttribute="width" secondItem="oCY-sa-WY0" secondAttribute="width" id="Ht9-6G-MTI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="X6t-fh-MJ2" secondAttribute="bottom" constant="20" id="MIT-x1-DOR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oCY-sa-WY0" secondAttribute="trailing" constant="15" id="Pf0-2M-5uP"/>
+                            <constraint firstItem="X6t-fh-MJ2" firstAttribute="leading" secondItem="oCY-sa-WY0" secondAttribute="leading" id="R46-ZZ-epL"/>
                             <constraint firstItem="oCY-sa-WY0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="W4G-Sa-O35"/>
                             <constraint firstItem="oCY-sa-WY0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZuZ-ic-1XC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9op-Nw-9ht" secondAttribute="trailing" id="dBK-TN-pdQ"/>
-                            <constraint firstItem="uaT-S3-oFs" firstAttribute="trailing" secondItem="X6t-fh-MJ2" secondAttribute="trailing" id="dxL-Wy-HSE"/>
-                            <constraint firstItem="uaT-S3-oFs" firstAttribute="leading" secondItem="X6t-fh-MJ2" secondAttribute="leading" id="l9S-RV-WVr"/>
                             <constraint firstItem="ykq-qK-JQS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mDb-BY-cMy"/>
                             <constraint firstItem="ykq-qK-JQS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o12-dm-pfH"/>
-                            <constraint firstItem="X6t-fh-MJ2" firstAttribute="bottom" secondItem="uaT-S3-oFs" secondAttribute="top" id="qje-IE-FyS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xKU-7h-PEF"/>
@@ -127,12 +113,11 @@
                         <outlet property="navBar" destination="9op-Nw-9ht" id="EdV-6r-qo2"/>
                         <outlet property="navBarTittleLabel" destination="VYe-ln-IUy" id="zdQ-mV-z4G"/>
                         <outlet property="voiceLabel" destination="oCY-sa-WY0" id="bDZ-mW-RJo"/>
-                        <outlet property="zanLabel" destination="uaT-S3-oFs" id="WRy-WY-hzX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354.66666666666669" y="-475.22666666666669"/>
+            <point key="canvasLocation" x="514.00966183574883" y="-318.23214285714283"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="P8R-Gm-u6d">
@@ -148,7 +133,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZU-8d-dMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-145.06666666666666" y="-401.38666666666666"/>
+            <point key="canvasLocation" x="-210.24154589371983" y="-268.78571428571428"/>
         </scene>
     </scenes>
 </document>

@@ -62,10 +62,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6t-fh-MJ2" customClass="LTMorphingLabel" customModule="LTMorphingLabel">
-                                <rect key="frame" x="31" y="343.5" width="313" height="15"/>
+                                <rect key="frame" x="31" y="343.5" width="313" height="20"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="cgB-MM-ynf"/>
+                                    <constraint firstAttribute="height" constant="20" id="cgB-MM-ynf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,34 +74,21 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="morphingEnabled" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1T-Bb-U7z">
-                                <rect key="frame" x="31" y="356.5" width="313" height="15"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="qEV-MM-Jr5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.081446088850498199" green="0.081328548491001129" blue="0.084216199815273285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="X6t-fh-MJ2" firstAttribute="top" secondItem="oCY-sa-WY0" secondAttribute="bottom" constant="10" id="4EK-vM-M5H"/>
-                            <constraint firstItem="U1T-Bb-U7z" firstAttribute="leading" secondItem="X6t-fh-MJ2" secondAttribute="leading" id="8H2-rF-Jtp"/>
                             <constraint firstItem="X6t-fh-MJ2" firstAttribute="trailing" secondItem="oCY-sa-WY0" secondAttribute="trailing" id="EYc-EP-2c9"/>
-                            <constraint firstItem="U1T-Bb-U7z" firstAttribute="trailing" secondItem="X6t-fh-MJ2" secondAttribute="trailing" id="HOs-3r-w3s"/>
-                            <constraint firstItem="X6t-fh-MJ2" firstAttribute="width" secondItem="oCY-sa-WY0" secondAttribute="width" id="Ht9-6G-MTI"/>
                             <constraint firstItem="pKE-tJ-abg" firstAttribute="trailing" secondItem="9op-Nw-9ht" secondAttribute="trailing" id="JYe-Nf-qEd"/>
                             <constraint firstItem="pKE-tJ-abg" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="X6t-fh-MJ2" secondAttribute="bottom" constant="20" id="MIT-x1-DOR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oCY-sa-WY0" secondAttribute="trailing" constant="15" id="Pf0-2M-5uP"/>
+                            <constraint firstItem="X6t-fh-MJ2" firstAttribute="leading" secondItem="oCY-sa-WY0" secondAttribute="leading" id="RlL-IZ-eR6"/>
                             <constraint firstItem="oCY-sa-WY0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="W4G-Sa-O35"/>
                             <constraint firstItem="9op-Nw-9ht" firstAttribute="leading" secondItem="pKE-tJ-abg" secondAttribute="leading" id="ZRK-1F-16u"/>
                             <constraint firstItem="oCY-sa-WY0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZuZ-ic-1XC"/>
                             <constraint firstItem="9op-Nw-9ht" firstAttribute="top" secondItem="pKE-tJ-abg" secondAttribute="top" id="dLK-kp-vMa"/>
                             <constraint firstItem="ykq-qK-JQS" firstAttribute="centerX" secondItem="pKE-tJ-abg" secondAttribute="centerX" id="mDb-BY-cMy"/>
                             <constraint firstItem="ykq-qK-JQS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o12-dm-pfH"/>
-                            <constraint firstItem="X6t-fh-MJ2" firstAttribute="bottom" secondItem="U1T-Bb-U7z" secondAttribute="top" constant="2" id="xew-Nq-syS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pKE-tJ-abg"/>
                     </view>
@@ -113,7 +100,6 @@
                         <outlet property="navBar" destination="9op-Nw-9ht" id="EdV-6r-qo2"/>
                         <outlet property="navBarTittleLabel" destination="VYe-ln-IUy" id="zdQ-mV-z4G"/>
                         <outlet property="voiceLabel" destination="oCY-sa-WY0" id="bDZ-mW-RJo"/>
-                        <outlet property="zanLabel" destination="U1T-Bb-U7z" id="GiD-ra-SVV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
