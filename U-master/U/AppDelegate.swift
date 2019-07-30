@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         MobClick.start(withConfigure:obj);
         MobClick.setLogEnabled(true);
         MobClick.setCrashReportEnabled(false)
-        MobClick.setAppVersion(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String)
+        MobClick.setAppVersion(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String)
         
         // UM push
         UMessage.start(withAppkey: "572a0d0fe0f55a9dc1001e9d", launchOptions: launchOptions, httpsEnable: true)
