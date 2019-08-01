@@ -16,7 +16,7 @@ target 'U' do
   # pod 'GlitchLabel', '2.0.0'   GlitchLabel.source = { :git => 'https://github.com/BrooksWon/GlitchLabel.git'}
   pod 'GlitchLabel', :git => 'https://github.com/BrooksWon/GlitchLabel.git'#暂时写自己的库，等待master合并我的PR后再替换成master
 
-  pod 'LTMorphingLabel'
+#  pod 'LTMorphingLabel'
   pod 'SwiftyJSON', '~>4.0.0'
   pod 'iRate', '~>1.12.1'
   pod 'Alamofire', '~> 4.7'

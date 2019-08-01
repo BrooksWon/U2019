@@ -5,7 +5,6 @@ PODS:
   - HandyJSON (5.0.0)
   - iRate (1.12.1)
   - LLSwitch (1.0.4)
-  - LTMorphingLabel (0.5.5)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.2.0)
   - PathMenu (2.0.1)
@@ -26,7 +25,6 @@ DEPENDENCIES:
   - HandyJSON (~> 5.0.0)
   - iRate (~> 1.12.1)
   - LLSwitch (= 1.0.4)
-  - LTMorphingLabel
   - MBProgressHUD (~> 1.1.0)
   - MJRefresh
   - PathMenu (from `https://github.com/BrooksWon/PathMenu.git`)
@@ -45,7 +43,6 @@ SPEC REPOS:
     - HandyJSON
     - iRate
     - LLSwitch
-    - LTMorphingLabel
     - MBProgressHUD
     - MJRefresh
     - SwiftyJSON
@@ -81,7 +78,6 @@ SPEC CHECKSUMS:
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   iRate: 59c63a290d4988f365d4338e58eca192ae92b552
   LLSwitch: b5f0e574b4c53f46806df015cd21285464d4b440
-  LTMorphingLabel: 86464e41c3394dbf1ad098442ed4dcf8891ba975
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   PathMenu: 2e9c0f3daac9336e1a7db581a39708a41cbd4a40
@@ -93,6 +89,6 @@ SPEC CHECKSUMS:
   UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: caa8fa53c1d9401154524ceee5fab8b23b60f21d
+PODFILE CHECKSUM: c532ce93d37a2719e89699efb2addda418c10930
 
 COCOAPODS: 1.5.3

@@ -9,7 +9,6 @@
 import UIKit
 import AdSupport
 import SCLAlertView
-import LTMorphingLabel
 import UserNotifications
 import UserNotificationsUI
 import SwiftyJSON

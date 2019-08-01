@@ -9,7 +9,6 @@
 import UIKit
 import PathMenu
 import GlitchLabel
-import LTMorphingLabel
 import SCLAlertView
 import Alamofire
 
@@ -17,9 +16,9 @@ class RootViewController: UIViewController {
     
     @IBOutlet weak var glitchLabel: GlitchLabel!
     @IBOutlet weak var voiceLabel: UILabel!
-    @IBOutlet weak var byUerLabel: LTMorphingLabel!
+    @IBOutlet weak var byUerLabel: UILabel!
     @IBOutlet weak var navBar: UIView!
-    @IBOutlet weak var navBarTittleLabel: LTMorphingLabel!
+    @IBOutlet weak var navBarTittleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,10 +43,6 @@ class RootViewController: UIViewController {
             self.byUerLabel.isHidden = false
             self.navBar.isHidden = false
             
-            if let effect = LTMorphingEffect(rawValue: 4) {
-                self.navBarTittleLabel.morphingEffect = effect
-            }
-            
             self.navBarTittleLabel.text = "U."
             
             self.changeVoiceText()
@@ -68,11 +63,6 @@ class RootViewController: UIViewController {
     
     func changeVoiceText() {
         MobClick.event("voiceText_change")
-        
-        let index = Int(arc4random_uniform(7))
-        if let effect = LTMorphingEffect(rawValue: index) {
-            self.byUerLabel.morphingEffect = effect
-        }
         
         if ((UserDefaults.standard.object(forKey: "PUSH_MSG_KEY")) != nil){
             let content = (UserDefaults.standard.object(forKey: "PUSH_MSG_KEY")) as! NSString as String
