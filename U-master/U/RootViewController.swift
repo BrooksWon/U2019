@@ -128,7 +128,7 @@ extension RootViewController: PathMenuDelegate {
             //更多
             let vc = MeViewController.init()
             vc.voiceText = self.voiceLabel.text;
-            self.show(vc, sender: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
             break
         case 1:
             MobClick.event("voice_btn")
