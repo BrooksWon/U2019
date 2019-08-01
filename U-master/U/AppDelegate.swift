@@ -67,25 +67,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         //打开UM崩溃收集
         MobClick.setCrashReportEnabled(true)
         
-        // UM push
-        UMessage.start(withAppkey: "572a0d0fe0f55a9dc1001e9d", launchOptions: launchOptions, httpsEnable: true)
-        UMessage.registerForRemoteNotifications()
-        
-        if #available(iOS 10.0, *) {
-            let center = UNUserNotificationCenter.current()
-            center.delegate = self
-            center.requestAuthorization(options: [UNAuthorizationOptions.badge, UNAuthorizationOptions.alert, UNAuthorizationOptions.sound], completionHandler: { (flag, error) in
-                if flag {
-                    // 用户允许注册push消息
-                } else {
-                    // 用户不允许注册push消息
-                }
-            })
-            
-        } else {
-            // Fallback on earlier versions
+        // Push组件基本功能配置
+        let entity = UMessageRegisterEntity.init()
+        entity.types = Int(UNAuthorizationOptions.badge.rawValue|UNAuthorizationOptions.alert.rawValue|UNAuthorizationOptions.sound.rawValue)
+        UNUserNotificationCenter.current().delegate = self
+        UMessage.registerForRemoteNotifications(launchOptions: launchOptions, entity: entity) { (granted:Bool, error:Error?) in
+            if (granted) {
+                //todo
+            }else{
+                //todo
+            }
         }
-        
         
         
         #if DEBUG
@@ -152,7 +144,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         MobClick.event("Register_Fail")
     }
     
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         handleUMPushMessage(message: userInfo as NSDictionary)
     }
     
@@ -220,6 +212,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
     }
     
     func handleUMPushMessage(message:NSDictionary) -> Void {
+        UMessage.setBadgeClear(true)
         //关闭友盟自带的弹出框
         UMessage.setAutoAlert(false)
         

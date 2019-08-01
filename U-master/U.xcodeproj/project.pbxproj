@@ -11,7 +11,6 @@
 		9815A5CA1FC312A20000B32C /* DZMTextViewPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9815A5C01FC312A10000B32C /* DZMTextViewPlaceholder.swift */; };
 		9815A5CD1FC312A20000B32C /* ATAppUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815A5C81FC312A20000B32C /* ATAppUpdater.m */; };
 		98264F1A1CF93A0E0028124B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98264F1C1CF93A0E0028124B /* Localizable.strings */; };
-		982A6F251FC3380000C7B68C /* libUMessage_Sdk_1.5.0a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982A6F241FC3380000C7B68C /* libUMessage_Sdk_1.5.0a.a */; };
 		9835C58322E96C4D00A1DD97 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835C58122E96C4D00A1DD97 /* ListViewController.swift */; };
 		9835C58422E96C4D00A1DD97 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9835C58222E96C4D00A1DD97 /* ListViewController.xib */; };
 		9835C58722E9703800A1DD97 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835C58522E9703800A1DD97 /* MessageCell.swift */; };
@@ -112,7 +111,6 @@
 		7DB6DE6C835FD066CF13AA6E /* Pods-U.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U.debug.xcconfig"; path = "Pods/Target Support Files/Pods-U/Pods-U.debug.xcconfig"; sourceTree = "<group>"; };
 		7E812F207DA25470C9946F6F /* Pods_iWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9815A5C01FC312A10000B32C /* DZMTextViewPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZMTextViewPlaceholder.swift; sourceTree = "<group>"; };
-		9815A5C31FC312A10000B32C /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
 		9815A5C71FC312A20000B32C /* ATAppUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAppUpdater.h; sourceTree = "<group>"; };
 		9815A5C81FC312A20000B32C /* ATAppUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAppUpdater.m; sourceTree = "<group>"; };
 		98264F121CF937C60028124B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant"; path = "zh-Hant.lproj/Main.storyboard"; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 		98264F1E1CF93A110028124B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		98264F1F1CF93A120028124B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		98264F201CF93A140028124B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		982A6F241FC3380000C7B68C /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
 		9835C58122E96C4D00A1DD97 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		9835C58222E96C4D00A1DD97 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		9835C58522E9703800A1DD97 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
@@ -222,7 +219,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982A6F251FC3380000C7B68C /* libUMessage_Sdk_1.5.0a.a in Frameworks */,
 				985C34FE1FC262E5006A59D5 /* UserNotifications.framework in Frameworks */,
 				0A444C3E0EBD4EE104F57A22 /* Pods_U.framework in Frameworks */,
 			);
@@ -237,15 +233,6 @@
 				9815A5C01FC312A10000B32C /* DZMTextViewPlaceholder.swift */,
 			);
 			path = PlaceholderTextView;
-			sourceTree = "<group>";
-		};
-		9815A5C11FC312A10000B32C /* UMessage_Sdk_1.5.0a */ = {
-			isa = PBXGroup;
-			children = (
-				982A6F241FC3380000C7B68C /* libUMessage_Sdk_1.5.0a.a */,
-				9815A5C31FC312A10000B32C /* UMessage.h */,
-			);
-			path = UMessage_Sdk_1.5.0a;
 			sourceTree = "<group>";
 		};
 		9815A5C61FC312A20000B32C /* ATAppUpdater */ = {
@@ -355,7 +342,6 @@
 			children = (
 				9815A5C61FC312A20000B32C /* ATAppUpdater */,
 				9815A5BF1FC312A10000B32C /* PlaceholderTextView */,
-				9815A5C11FC312A10000B32C /* UMessage_Sdk_1.5.0a */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -501,6 +487,9 @@
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};

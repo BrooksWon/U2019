@@ -15,6 +15,8 @@ PODS:
     - UMCCommon
   - UMCCommon (2.1.1)
   - UMCCommonLog (1.0.0)
+  - UMCPush (3.2.4):
+    - UMCCommon
   - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
@@ -33,6 +35,7 @@ DEPENDENCIES:
   - UMCAnalytics (~> 6.0.5)
   - UMCCommon (= 2.1.1)
   - UMCCommonLog (~> 1.0.0)
+  - UMCPush (~> 3.2.4)
   - UMCSecurityPlugins (~> 1.0.6)
 
 SPEC REPOS:
@@ -49,6 +52,7 @@ SPEC REPOS:
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
+    - UMCPush
     - UMCSecurityPlugins
 
 EXTERNAL SOURCES:
@@ -86,8 +90,9 @@ SPEC CHECKSUMS:
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: 525d7b1a3bc10d8d9d12d7a80b82416588334425
+PODFILE CHECKSUM: caa8fa53c1d9401154524ceee5fab8b23b60f21d
 
 COCOAPODS: 1.5.3
