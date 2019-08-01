@@ -447,6 +447,7 @@
 				3C42B54A18619159AF7A9836 /* [CP] Embed Pods Frameworks */,
 				984B54691FF7A63300270327 /* Embed App Extensions */,
 				9844A6C21FF7FAE100ABB6FB /* Embed Watch Content */,
+				F02C03A675E5E614BE914D66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -622,6 +623,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U/Pods-U-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02C03A675E5E614BE914D66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-U/Pods-U-resources.sh",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-U/Pods-U-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBA36D3C2BE34718ABCBE73E /* [CP] Check Pods Manifest.lock */ = {

@@ -58,14 +58,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
             })
         }
         
-        //UM 统计
-        let obj = UMAnalyticsConfig.sharedInstance()
-        obj?.appKey = "572a0d0fe0f55a9dc1001e9d"
-        obj?.ePolicy = REALTIME
-        MobClick.start(withConfigure:obj);
-        MobClick.setLogEnabled(true);
-        MobClick.setCrashReportEnabled(false)
-        MobClick.setAppVersion(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String)
+        //UM相关
+        //开发者需要显式的调用此函数，日志系统才能工作
+        UMCommonLogManager.setUp()
+        UMConfigure.setEncryptEnabled(true)
+        UMConfigure.initWithAppkey("572a0d0fe0f55a9dc1001e9d", channel: "App Store")
+        
+        //打开UM崩溃收集
+        MobClick.setCrashReportEnabled(true)
         
         // UM push
         UMessage.start(withAppkey: "572a0d0fe0f55a9dc1001e9d", launchOptions: launchOptions, httpsEnable: true)
@@ -90,6 +90,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         
         #if DEBUG
             UMessage.openDebugMode(true)
+            UMConfigure.setLogEnabled(true)
         #else
             UMessage.openDebugMode(false);
         #endif
@@ -98,7 +99,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
          #if DEBUG
             //Bugly.startWithAppId("b75c4596bf")
          #else
-        Bugly.start(withAppId: "b75c4596bf")
+            Bugly.start(withAppId: "b75c4596bf")
          #endif
         
         

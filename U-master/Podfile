@@ -3,7 +3,10 @@
 target 'U' do
   use_frameworks!
   
-  pod 'UMengAnalytics', '4.2.4'
+  pod 'UMCCommon', '2.1.1'
+  pod 'UMCAnalytics', '~> 6.0.5'
+  pod 'UMCSecurityPlugins', '~> 1.0.6'
+  pod 'UMCCommonLog', '~> 1.0.0'
   pod 'LLSwitch', '1.0.4'
   pod 'PathMenu', :git => 'https://github.com/BrooksWon/PathMenu.git'#暂时写自己的库，等待master合并我的PR后再替换成master
   

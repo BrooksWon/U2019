@@ -11,7 +11,11 @@ PODS:
   - PathMenu (2.0.1)
   - SCLAlertView (0.7.0)
   - SwiftyJSON (4.0.0)
-  - UMengAnalytics (4.2.4)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMCCommonLog (1.0.0)
+  - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
@@ -26,7 +30,10 @@ DEPENDENCIES:
   - PathMenu (from `https://github.com/BrooksWon/PathMenu.git`)
   - SCLAlertView (from `https://github.com/vikmeup/SCLAlertView-Swift.git`)
   - SwiftyJSON (~> 4.0.0)
-  - UMengAnalytics (= 4.2.4)
+  - UMCAnalytics (~> 6.0.5)
+  - UMCCommon (= 2.1.1)
+  - UMCCommonLog (~> 1.0.0)
+  - UMCSecurityPlugins (~> 1.0.6)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -39,7 +46,10 @@ SPEC REPOS:
     - MBProgressHUD
     - MJRefresh
     - SwiftyJSON
-    - UMengAnalytics
+    - UMCAnalytics
+    - UMCCommon
+    - UMCCommonLog
+    - UMCSecurityPlugins
 
 EXTERNAL SOURCES:
   GlitchLabel:
@@ -73,8 +83,11 @@ SPEC CHECKSUMS:
   PathMenu: 2e9c0f3daac9336e1a7db581a39708a41cbd4a40
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
-  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: 768f15c72b9627ed96447b18d9d49b726ae093dd
+PODFILE CHECKSUM: 525d7b1a3bc10d8d9d12d7a80b82416588334425
 
 COCOAPODS: 1.5.3
