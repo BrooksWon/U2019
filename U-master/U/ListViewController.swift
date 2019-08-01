@@ -20,7 +20,7 @@ class ListViewController: UIViewController {
     
     var _messages = NSMutableArray()
     
-    var _pageIndex = ""
+    var _pageIndex = "0"
     
     
     
